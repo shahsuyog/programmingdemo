@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="Pack2.ScreenshotDemo">
+        <methods>
+          <include name="demo"/>
+        </methods>
+      </class> <!-- Pack2.ScreenshotDemo -->
+      <class name="Pack2.TestngDemo">
+        <methods>
+          <include name="Register" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Pack2.TestngDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
